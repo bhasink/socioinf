@@ -1,0 +1,381 @@
+
+
+body {
+	padding-top: 0px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+
+
+.mainadminlayer {
+    display: flex;
+}
+
+.site-header.topmain {background: #000;position: fixed;padding: 0 6px;height: 100%;width: 56px;z-index: 999; }
+
+.admnavs  ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.panelmainlayer {
+    width: 100%;
+    margin-left: 56px;
+    padding-top: 48px;
+}
+
+.headbluecustom {
+    background: #6b60eb;
+    padding: 12px 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+
+.headbluecustom .menusubject {
+    margin: 0;
+    color: #fff;
+}
+
+.leftoptionsad {
+    display: flex;
+    width: 27%;
+    position: relative;
+}
+
+.leftoptionsad select.form-control {
+    height: 26px;
+    padding: 0px 4px;
+    margin: 0 9px;
+    width: 198px;
+    font-size: 13px;
+    position: absolute;
+    right: 16px;
+}
+
+.admnavs ul li {
+    width: 100%;
+    display: block;
+    text-align: center;
+	    margin-bottom: 19px;
+}
+
+.admnavs ul li a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    font-size: 19px;
+}
+
+
+.hdlgos img {
+    width: 31px;
+}
+
+.hdlgos {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 14px;
+}
+
+.logbotms {
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.usnmshots {
+    background: #fff;
+    height: 46px;
+    border-radius: 100%;
+    width: 46px;
+    display: flex;
+	    margin: auto;
+	cursor:pointer;
+}
+
+.usnmshots p {
+    margin: auto;
+    font-weight: 600;
+}
+
+
+.contentadlayers {
+    padding: 43px;
+    background: #f9f9f9;
+    margin-top: 0px;
+}
+
+.contentadlayers h3 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.contentadlayers h3,
+.contentadlayers h4 {
+       font-weight: 700; 
+}
+
+.contentadlayers h4{
+    font-size: 14px;
+}
+
+.contentadlayers  p {
+    font-size: 12px;
+}
+
+.contentadlayers .midlys {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.setformbloacks .col-md-5 p {width: 71%;}
+
+
+
+.admformthm {
+    background: #fff;
+    padding: 32px;
+	box-shadow: #e0e0e0 0px 2px 2px 0px;
+}
+
+.admformthm .form-group label {
+    font-size: 13px;
+}
+
+.admformthm .form-group .form-control {
+    font-size: 12px;
+    height: auto;
+    padding: 10px;
+    background: #eeecec;
+    border: none;
+}
+
+.setformbloacks {
+    margin-bottom: 30px;
+}
+
+.admformthm .form-group label i {
+    font-size: 15px;
+    padding: 10px;
+	width: 36px;
+    height: 35px;
+	text-align: center;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+.fltrssets .col-md-3 {
+    padding: 0 5px;
+}
+
+.fltrssets {
+       margin-top: 20px;
+}
+
+.fltrssets .row {
+    padding: 0 8px;
+}
+
+.setnewsocials p {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.setnewsocials a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #6b60eb;
+    font-weight: 600;
+}
+
+
+.otplanls {
+    position: absolute;
+    top: -17px;
+    width: 159px;
+    background: #fff;
+    left: 56px;
+    padding: 0 0;
+    box-shadow: #000 0px 0px 2px 0px;
+    opacity: 0;
+    visibility: hidden;
+	transition: all ease 0.5s;
+	
+}
+
+
+.otplanls.openpnml {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.otplanls ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.otplanls ul li {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px dotted;
+}
+
+.otplanls ul li a {
+    color: #000;
+    font-size: 13px;
+}
+
+.otplanls ul li i {
+    margin-right: 7px;
+}
+
+.stngsoptions nav {
+    background: #1609b6;
+}
+
+.stngsoptions nav .nav-tabs .nav-link {
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    border-radius: 0px;
+    font-weight: 500;
+    margin: 6px 0;
+}
+
+.stngsoptions nav .nav-tabs .nav-link.active {
+    background: #000;
+}
+
+
+.themeadmssts {
+    border: none;
+    background: #1609b6;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.exrgoptns {
+    display: flex;
+}
+
+.exrgoptns .form-group {
+    margin: 0 13px;
+}
+
+.exrgoptns .form-group .form-control {
+    width: 178px;
+}
+
+.cmptoolsinf {
+    padding: 10px 19px;
+}
+
+.cmptoolsinf .admformthm {
+    padding: 0 0;
+    box-shadow: none;
+}
+
+.cmptoolsinf .admformthm .form-group {
+    margin: 0;
+	    padding: 0 19px;
+}
+
+.leftoptionsad .dropdown-toggle {
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+
+.exrgoptns .input-group .form-control {
+    width: 64px;
+}
+
+.exrgoptns .input-group .input-group-addon {
+    padding: 6px;
+    background: #ddd;
+}
+
+.exrgoptns .input-group {
+    padding: 0 0;
+}
+
+.exrgoptns .form-group .dropdown-toggle {
+    background: #fff;
+    color: #000;
+}
+
+
+.campgraphsstas .dtacounts {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.stsclud {
+    background: #eceef0;
+    background: -webkit-linear-gradient(top, #97c2e1 5%, #e1e1e1 100%);
+    background: -webkit-linear-gradient(top, #97c2e1 5%, #e1e1e1 100%);
+    background: -moz-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    background: -ms-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    background: -o-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    padding: 6px 0;
+    box-shadow: #a5a4a4 0px 1px 7px 0px;
+}
+
+.campgraphsstas p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+.perfmetrsa {
+    max-width: 471px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.perfmetrsa .dtstats {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    color: #6b60eb;
+}
+
+.perfmetrsa p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* css Responsive */
+
+
+@media screen and (max-width: 800px) and (min-width: 320px){
+
+	
+	.contentadlayers{
+		    padding: 19px;
+	}
+
+
+}

@@ -65,11 +65,13 @@ function Login() {
           </div>
           {/* <button type="submit" className="btn btn-primary">Sign In</button> */}
 
+          <div className="form-group">
           <button disabled={formState.isSubmitting} className="btn btn-primary">
                             {formState.isSubmitting && <span className="spinner-border spinner-border-sm mr-1"></span>}
                             Login
                         </button>
-                        <Link href="/account/register" className="btn btn-link">Register</Link>
+                        </div>
+                        <p class="avc">Don't have account ? please <Link href="/account/register" className="lnac">Register</Link></p>        
         </form>
       </div>
     </div>

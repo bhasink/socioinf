@@ -41,38 +41,85 @@ function Register() {
 
     return (
         <Layout>
-            <div className="card">
-                <h4 className="card-header">Register</h4>
-                <div className="card-body">
-                    <form onSubmit={handleSubmit(onSubmit)}>
+
+
+<section className="loginfoms signnewusers">
+  <div className="maingridml">
+    <div className="toplogomns">
+      <div className="lgmnos">
+        <a className="navbar-brand" href="#">
+          <img src="/images/logoadm2.png" className="navbar-brand-img" alt="logo" />
+        </a>
+      </div>
+    </div>
+
+    <div className="col-md-6 rightbannermn">
+      <img src="/images/dummybaner.jpg" />
+    </div>
+
+    <div className="col-md-6">
+      <div className="formlogs">
+        <h1 className="sgupintfs">Sign in to Influencers</h1>
+        <p className="smtxs">Please enter your credentials to proceed.</p>
+      
+
+
+        <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="form-group">
-                            <label>First Name</label>
-                            <input name="firstName" type="text" {...register('firstName')} className={`form-control ${errors.firstName ? 'is-invalid' : ''}`} />
+                           
+                            <input name="firstName" placeholder ="Enter Name Here" type="text" {...register('firstName')} className={`form-control ${errors.firstName ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.firstName?.message}</div>
                         </div>
                         <div className="form-group">
-                            <label>Last Name</label>
-                            <input name="lastName" type="text" {...register('lastName')} className={`form-control ${errors.lastName ? 'is-invalid' : ''}`} />
+                           
+                            <input name="lastName" placeholder ="Enter Company Name here" type="text" {...register('lastName')} className={`form-control ${errors.lastName ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.lastName?.message}</div>
                         </div>
                         <div className="form-group">
-                            <label>Username</label>
-                            <input name="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
+                           
+                            <input name="username" placeholder ="Enter Email" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.username?.message}</div>
                         </div>
+
                         <div className="form-group">
-                            <label>Password</label>
-                            <input name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
+                            <select className='form-control'>
+                                <option>What Best Describes you ?</option>
+                                <option>Ecommerce</option>
+									<option>B2C</option>
+									<option>B2B</option>
+									<option>Non-profit</option>
+									<option>Agency</option>
+									<option>Influencer</option>
+									<option>Other</option>
+
+                            </select>
+                        </div>
+
+
+                        <div className="form-group">
+                           
+                            <input placeholder='Enter Password' name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
                         </div>
+
+                        <div className="form-group">
+                           
                         <button disabled={formState.isSubmitting} className="btn btn-primary">
                             {formState.isSubmitting && <span className="spinner-border spinner-border-sm mr-1"></span>}
                             Register
                         </button>
-                        <Link href="/account/login" className="btn btn-link">Cancel</Link>
+                        </div>
+                        <p class="avc">Alread have account ? please <Link href="/account/login" className="lnac">login</Link></p>
                     </form>
-                </div>
-            </div>
+                    
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+            
         </Layout>
     );
 }
