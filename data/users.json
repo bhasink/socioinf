@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "Karan",
+        "lastName": "Bhasin",
+        "username": "karan@sociowash.com",
+        "hash": "$2a$10$IUVKAaOGZVubUp06DjNcW.ZN6Zv4ix07pYxf./yHD079ZU1iolSfy",
+        "id": 1,
+        "dateCreated": "2023-05-25T13:10:47.892Z",
+        "dateUpdated": "2023-05-25T13:10:47.892Z"
+    },
+    {
+        "firstName": "Karan",
+        "lastName": "Bhasin",
+        "username": "q",
+        "hash": "$2a$10$eMB.DvT8NhYsSKOfhX/blOS/ui56nO1O8o67o8H9N55pnrBHgLxke",
+        "id": 2,
+        "dateCreated": "2023-06-14T07:59:41.820Z",
+        "dateUpdated": "2023-06-14T07:59:41.820Z"
+    },
+    {
+        "firstName": "Karan",
+        "lastName": "Bhasin",
+        "username": "karan@sociowash.com1",
+        "hash": "$2a$10$uhuQukMc9C.bl0Wyu3nvZO5o7i0.BzFPgEuX/rt7dAZWMUa9YkDVm",
+        "id": 3,
+        "dateCreated": "2023-06-22T07:35:52.213Z",
+        "dateUpdated": "2023-06-22T07:35:52.213Z"
+    },
+    {
+        "firstName": "Karan",
+        "lastName": "Bhasin",
+        "username": "w",
+        "hash": "$2a$10$UOAjpWWK3B5Gf2vOGz4xQerBTTLvMySHoMFUO2T7iaR52EjNrXl7K",
+        "id": 4,
+        "dateCreated": "2023-08-16T07:52:58.780Z",
+        "dateUpdated": "2023-08-16T07:52:58.780Z"
+    }
+]

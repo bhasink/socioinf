@@ -1,0 +1,884 @@
+
+
+body {
+	padding-top: 0px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+.mainadminlayer {
+    display: flex;
+}
+
+.site-header.topmain {background: #000;position: fixed;padding: 0 6px;height: 100%;width: 56px;z-index: 999; }
+
+.admnavs  ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.panelmainlayer {
+    width: 100%;
+    margin-left: 56px;
+    padding-top: 48px;
+}
+
+.headbluecustom {
+    background: #6b60eb;
+    padding: 12px 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+
+.headbluecustom .menusubject {
+    margin: 0;
+    color: #fff;
+}
+
+.leftoptionsad {
+    display: inline-flex;
+    width: 27%;
+    position: relative;
+}
+
+.leftoptionsad select.form-control {
+    height: 26px;
+    padding: 0px 4px;
+    margin: 0 9px;
+    width: 198px;
+    font-size: 13px;
+    position: absolute;
+    right: 16px;
+}
+
+.rightsoptionsad {
+    float: right;
+    width: 31%;
+    display: flex;
+}
+
+.rightsoptionsad p {
+    color: #fff;
+    margin: 0;
+}
+
+.transctsa {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 4px 14px;
+    border: 1px solid #fff;
+    margin: 0 13px;
+}
+
+.whtscts {
+    background: #fff;
+    border: none;
+    padding: 4px 18px;
+}
+
+.admnavs ul li {
+    width: 100%;
+    display: block;
+    text-align: center;
+	    margin-bottom: 19px;
+}
+
+.admnavs ul li a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    font-size: 19px;
+}
+
+
+.hdlgos img {
+    width: 31px;
+}
+
+.hdlgos {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 14px;
+}
+
+.logbotms {
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.usnmshots {
+    background: #fff;
+    height: 46px;
+    border-radius: 100%;
+    width: 46px;
+    display: flex;
+	    margin: auto;
+	cursor:pointer;
+}
+
+.usnmshots p {
+    margin: auto;
+    font-weight: 600;
+}
+
+
+.contentadlayers {
+    padding: 43px;
+    background: #f9f9f9;
+    margin-top: 0px;
+}
+
+.contentadlayers h3 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.contentadlayers h3,
+.contentadlayers h4 {
+       font-weight: 700; 
+}
+
+.contentadlayers h4{
+    font-size: 14px;
+}
+
+.contentadlayers  p {
+    font-size: 12px;
+}
+
+.contentadlayers .midlys {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.setformbloacks .col-md-5 p {width: 71%;}
+
+
+
+.admformthm {
+    background: #fff;
+    padding: 32px;
+	box-shadow: #e0e0e0 0px 2px 2px 0px;
+}
+
+.admformthm .form-group label {
+    font-size: 13px;
+}
+
+.admformthm .form-group .form-control {
+    font-size: 12px;
+    height: auto;
+    padding: 10px;
+    background: #eeecec;
+    border: none;
+}
+
+.setformbloacks {
+    margin-bottom: 30px;
+}
+
+.admformthm .form-group label i {
+    font-size: 15px;
+    padding: 10px;
+	width: 36px;
+    height: 35px;
+	text-align: center;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+.fltrssets .col-md-3 {
+    padding: 0 5px;
+}
+
+.fltrssets {
+       margin-top: 20px;
+}
+
+.fltrssets .row {
+    padding: 0 8px;
+}
+
+.setnewsocials p {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.setnewsocials a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #6b60eb;
+    font-weight: 600;
+}
+
+
+.otplanls {
+    position: absolute;
+    top: -17px;
+    width: 159px;
+    background: #fff;
+    left: 56px;
+    padding: 0 0;
+    box-shadow: #000 0px 0px 2px 0px;
+    opacity: 0;
+    visibility: hidden;
+	transition: all ease 0.5s;
+	
+}
+
+
+.otplanls.openpnml {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.otplanls ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.otplanls ul li {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px dotted;
+}
+
+.otplanls ul li a {
+    color: #000;
+    font-size: 13px;
+}
+
+.otplanls ul li i {
+    margin-right: 7px;
+}
+
+.stngsoptions nav {
+    background: #1609b6;
+}
+
+.stngsoptions nav .nav-tabs .nav-link {
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    border-radius: 0px;
+    font-weight: 500;
+    margin: 6px 0;
+}
+
+.stngsoptions nav .nav-tabs .nav-link.active {
+    background: #000;
+}
+
+
+.themeadmssts {
+    border: none;
+    background: #1609b6;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.themeadmssts:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.exrgoptns {
+    display: flex;
+}
+
+.exrgoptns .form-group {
+    margin: 0 13px;
+}
+
+.exrgoptns .form-group .form-control {
+    width: 178px;
+}
+
+.cmptoolsinf {
+    padding: 23px 19px;
+}
+
+.cmptoolsinf .admformthm {
+    padding: 0 0;
+    box-shadow: none;
+}
+
+.cmptoolsinf .admformthm .form-group {
+    margin: 0;
+	    padding: 0 19px;
+}
+
+.leftoptionsad .dropdown-toggle {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    background: #fff;
+    color: #574fb9;
+}
+
+.exrgoptns .input-group .form-control {
+    width: 64px;
+}
+
+.exrgoptns .input-group .input-group-addon {
+    padding: 6px;
+    background: #ddd;
+}
+
+.exrgoptns .input-group {
+    padding: 0 0;
+}
+
+.exrgoptns .form-group .dropdown-toggle {
+    background: #fff;
+    color: #000;
+}
+
+
+.campgraphsstas .dtacounts {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.stsclud {
+    background: -webkit-linear-gradient(top, #6b60eb 5%, #e1e1e1 100%);
+    background: -webkit-linear-gradient(top, #6b60eb 5%, #e1e1e1 100%);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    padding: 6px 0;
+    box-shadow: #a5a4a4 0px 1px 7px 0px;
+}
+
+.campgraphsstas p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+.perfmetrsa {
+    max-width: 471px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.perfmetrsa .dtstats {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    color: #6b60eb;
+}
+
+.perfmetrsa p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mddtgraphs {
+    text-align: center;
+    max-width: 715px;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.mddtgraphs .dtstats {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dtssets {
+    width: 100%;
+}
+
+.dtssets label {
+    display: inline-block;
+    margin: 0 1px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.dtssets  .gp {
+    display: inline-block;
+    width: 90px;
+}
+
+.grpinfos {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 19px;
+}
+
+.dtssets {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.dtssets .gp .progress {
+    height: 3px;
+    position: relative;
+    top: -3px;
+}
+
+.rghnewfil {
+    display: flex;
+    width: 100%;
+    padding: 6px 0;
+}
+
+.rghnewfil p {
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.rghnewfil .actv {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 3px 8px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 6px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.pstfiloptions {
+    margin-top: 40px;
+}
+
+
+.whtpgds {
+    background: #fff;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: auto;
+    max-width: 324px;
+}
+
+.whtpgds .mainuspost {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    border: 3px solid #efefef;
+    position: absolute;
+    top: -16px;
+    z-index: 3;
+    right: 0;
+    left: 0;
+}
+
+.postscthmbs img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.postscthmbs {
+    position: relative;
+    margin-top: 23px;
+}
+
+.topdtinfo {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.postgridsocils {
+    padding-top: 40px;
+}
+
+.wdls label span {
+    font-weight: 600;
+}
+
+.wdls label {
+    font-size: 13px;
+    display: block;
+    margin: 0;
+}
+
+.wdls {
+    width: 67%;
+    display: inline-block;
+}
+
+.rgtsinfo.wdls {width: 31%;}
+
+.wdls label .rdpns {
+    color: #cf2e2e;
+    margin-right: 6px;
+}
+.wdls label img {
+    width: 15px;
+    margin-right: 4px;
+}
+
+.pstfiloptions .dropdown-toggle {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 7px 0;
+}
+
+
+.themetableadms {
+    box-shadow: #00000026 0px 0px 5px 0px;
+    margin: 50px 0;
+}
+
+.tablefilterres {
+    padding: 50px 0 0 0;
+}
+
+.themetableadms .table tr th {
+    background: #414144;
+    color: #fff;
+    font-size: 13px;
+	text-align: center;
+}
+
+.themetableadms .table td a img {
+    width: 16px;
+}
+
+.themetableadms .table td a {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.themetableadms .table td  .atcons {
+    background: #1f8b02;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    box-shadow: inset #fff 0px 0px 0px 4px;
+    border: 1px solid #a5a0a0;
+    display: inline-block;
+}
+
+.themetableadms .table td  .inactcons {
+    background: #d72828;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    box-shadow: inset #fff 0px 0px 0px 4px;
+    border: 1px solid #d72828;
+    display: inline-block;
+}
+
+.themetableadms .table td {
+    text-align: center;
+	font-size: 14px;
+}
+
+.themetableadms .table tr:nth-child(even) td {
+    background: #ededed;
+}
+
+.themetableadms .table td i {
+    border: 1px solid;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+}
+
+.themetableadms .table td i.fa-plus {
+    background: #1891f3;
+    color: #fff;
+}
+
+.themetableadms .table td i.fa-minus {
+    background: #ff2121;
+    color: #fff;
+}
+
+
+.entyfilts {
+    display: inline-flex;
+    width: auto;
+}
+
+.entyfilts span {
+    font-weight: 600;
+    margin: auto 14px;
+    color: #000;
+    font-size: 12px;
+}
+
+.entyfilts select.form-control {
+    width: auto;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid;
+}
+
+
+.nopadmodealcus .modal-body {
+    padding: 0;
+}
+
+.nopadmodealcus .modal-content {
+    border: none;
+}
+
+.nopadmodealcus .close,
+.delemodsa .close {
+    text-shadow: none;
+    color: #fff;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 100%;
+    position: absolute;
+    right: -9px;
+    top: -8px;
+	outline:none;
+}
+
+
+.delemodsa .modal-body {
+    padding: 0;
+}
+
+.delrecds {
+    text-align: center;
+    padding: 20px;
+}
+
+.delrecds h5 {
+    font-weight: 600;
+    color: #c52424;
+}
+
+.delrecds .transctmods {
+    border-radius: 20px;
+    border: none;
+    padding: 4px 35px;
+}
+
+.delrecds .orangectadms {
+    border-radius: 20px;
+    border: none;
+    padding: 4px 35px;
+	background: #d41717;
+    color: #fff;
+}
+
+.whitpatchs {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.midprom {
+    width: 115px;
+    height: 113px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 1100%;
+}
+
+.midprom img {
+    width: 100%;
+}
+
+.midprom img {
+    width: 100%;
+}
+
+.profviews {
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 572px;
+}
+
+.profviews p {
+    font-weight: 500;
+    font-size: 14px;
+        margin: 0 0 4px 0;
+    position: relative;
+}
+
+
+.profviews 
+ .lcm {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.whitpatchs .mddtgraphs {
+    border: none;
+}
+
+.prml p:after {
+    margin-bottom: 4px;
+    border-bottom: 2px solid #6b60eb;
+    width: 47px;
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    display: inline-block;
+    left: 0;
+}
+
+.wdls label .dmgr {
+    max-width: 77px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    margin: -6px 0;
+}
+
+
+/* css Responsive */
+
+
+@media screen and (max-width: 800px) and (min-width: 320px){
+
+	
+	.contentadlayers{
+		    padding: 19px;
+	}
+	
+	.leftoptionsad .dropdown-toggle {
+    font-size: 12px;
+}
+
+.rightsoptionsad {
+    float: right;
+    width: -webkit-fill-available;
+    display: flex;
+    position: relative;
+}
+
+.leftoptionsad {
+    display: block;
+    width: 63%;
+    position: relative;
+}
+
+.rightsoptionsad{
+	    margin-top: 11px;
+}
+
+.themetableadms {
+    overflow: scroll;
+}
+
+
+.panelmainlayer {
+   overflow: hidden;
+}
+
+.cmptoolsinf {
+    margin-top: 50px;
+}
+
+.exrgoptns .form-group .form-control {
+    width: 145px;
+}
+
+.exrgoptns .form-group {
+    display: inline-block;
+    margin: 8px 6px 0 0;
+}
+
+.exrgoptns .input-group {
+    display: inline-flex;
+    width: 50%;
+}
+
+.exrgoptns {
+    display: inline-block;
+}
+
+.stsclud {
+    margin-bottom: 20px;
+}
+
+.campgraphsstas p {
+    font-size: 11px;
+}
+
+.mddtgraphs {
+    margin-top: 50px;
+}
+
+.rghnewfil {
+    text-align: center;
+}
+
+.rghnewfil p {
+    font-size: 12px;
+}
+
+.rghnewfil .actv {
+    padding: 7px 6px;
+    font-size: 13px;
+}
+
+.whtpgds {
+    margin-bottom: 30px;
+}
+
+.exrgoptns .form-group .form-control,
+.exrgoptns .input-group .form-control,
+.exrgoptns .input-group .input-group-addon {
+    font-size: 12px;
+}
+
+.exrgoptns .form-group .dropdown-toggle {
+    font-size: 12px;
+	    padding: 5px 12px;
+}
+
+.exrgoptns .input-group .form-control{
+	    width: 46px;
+}
+
+.transctsa {
+    font-size: 12px;
+    padding: 5px 9px;
+}
+
+.whtscts {
+    font-size: 12px;
+}
+
+.campgraphsstas .col-6.col-md-2.text-center {
+    padding: 0 6px;
+}
+
+}
